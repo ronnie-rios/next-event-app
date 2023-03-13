@@ -1,16 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import { getFeaturedEvents } from "../data"
 
 export default function Home() {
   return (
     <div>
-   
-    <h1 className="text-3xl font-bold underline p-40">
-      Hello world!
-    </h1>
-  
-
+      <h1>Featured Events</h1>
     </div>
   )
 }
