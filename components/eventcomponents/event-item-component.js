@@ -15,10 +15,18 @@ const EventItemComponent = (props) => {
     <li>
       <div>
         <h2 key={id}>{title}</h2>
+      </div>
+      <div>
         <p>{description}</p>
-        <address>{formatAddress}</address>
+      </div>
+      <div>
+        <address>{formatLocation}</address>
+      </div>
+      <div>
         <date>{dateData}</date>
-        <Button link={idNav}>Explore Event</Button>
+      </div>
+      <div>
+        <button link={idRoute}>Explore Event</button>
       </div>
     </li>
   )
