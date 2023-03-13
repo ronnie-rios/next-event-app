@@ -14,7 +14,7 @@ const EVENTS = [
         description: 'This is event number 2',
         location: '123 Cool Street, Cool Town',
         date: '2023-11-11',
-        isFeatured: true,
+        isFeatured: false,
         image: ''
     },
     {
