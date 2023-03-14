@@ -10,7 +10,7 @@ const EventDetails = () => {
   if(!foundEvent) { return <p>no event found</p> }
 
   return (
-    <div>
+    <div className='flex flex-col justify-center items-center'>
       <h1>{foundEvent.title}</h1>
       <p>{foundEvent.description}</p>
     </div>

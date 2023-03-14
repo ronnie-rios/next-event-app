@@ -1,5 +1,6 @@
 import EventListComponent from "../../components/eventcomponents/event-list-component"
-import { getAllEvents } from "../../data"
+import { getAllEvents } from "../../data";
+
 const EventsHome = () => {
   const events = getAllEvents();
   return (
