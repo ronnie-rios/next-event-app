@@ -4,6 +4,7 @@ import Link from 'next/link';
 
 const EventDetails = () => {
   const id = useRouter(); //set the router metho to a variable
+  console.log(id);
   const params = id.query.eventId;
   const foundEvent = getEventById(params);
 

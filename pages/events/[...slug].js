@@ -4,6 +4,7 @@ import EventListComponent from '../../components/eventcomponents/event-list-comp
 
 const FilteredEvents = () => {
   const router = useRouter();
+  console.log(router);
   const filterData = router.query.slug;
 
   if(!filterData) { return <p>loading. . .</p> }
