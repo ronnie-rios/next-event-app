@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from 'next/link';
 const EventItemComponent = (props) => {
   const { id, description, title, date, location } = props;
   const dateData = new Date(date).toLocaleDateString("en-US", {
